@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Augusto Gabriel — Portfólio
 
-## Getting Started
+Portfólio profissional focado em **Python, backend, automação e dados**.
 
-First, run the development server:
+A proposta é simples: mostrar projetos pelo problema que resolvem e pelas decisões técnicas envolvidas, sem transformar o README em uma coleção de badges piscando como painel de caminhão.
+
+## Projetos apresentados
+
+### Nexus
+Projeto cliente-servidor de inventário corporativo, com foco em rastreabilidade de ativos, usuários e alterações.
+
+**Stack:** Python, FastAPI, PostgreSQL e REST API.
+
+### Unidade Zero
+Plataforma de pré-mobilização operacional para apoiar a seleção de profissionais com base em requisitos, qualificações e disponibilidade.
+
+**Foco técnico:** backend, SQL, automação, regras de negócio e matching.
+
+### Projeto Escarlate
+Aplicação pessoal com autenticação, sessão persistente e sincronização entre aplicativo e backend.
+
+**Stack:** Android, Firebase, Python e APIs.
+
+## Stack do portfólio
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+
+## Princípios do projeto
+
+- conteúdo primeiro;
+- visual escuro e minimalista;
+- responsivo desde telas pequenas;
+- acessibilidade básica e suporte a `prefers-reduced-motion`;
+- sem barras de "nível de habilidade" ou métricas inventadas;
+- projetos descritos como projetos e protótipos, sem fingir uso em produção.
+
+## Rodando localmente
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Depois acesse `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para validar uma versão de produção:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Contato
 
-To learn more about Next.js, take a look at the following resources:
+**Augusto Gabriel**  
+Backend · Python · Automação  
+São Paulo, Brasil  
+E-mail: augusto131060@gmail.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: [KILLERQUEEN16](https://github.com/KILLERQUEEN16)
