@@ -57,7 +57,7 @@ const experience = [
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#09090b] text-zinc-100">
-      <div className="pointer-events-none fixed inset-0 -z-0 bg-[radial-gradient(circle_at_70%_8%,rgba(139,92,246,0.10),transparent_28%),radial-gradient(circle_at_8%_45%,rgba(139,92,246,0.05),transparent_24%)]" />
+      <div className="pointer-events-none fixed inset-0 z-0 bg-[radial-gradient(circle_at_70%_8%,rgba(139,92,246,0.10),transparent_28%),radial-gradient(circle_at_8%_45%,rgba(139,92,246,0.05),transparent_24%)]" />
 
       <div className="relative z-10 mx-auto max-w-6xl px-5 pb-16 pt-5 sm:px-8 lg:px-10">
         <nav className="sticky top-4 z-30 flex items-center justify-between rounded-2xl border border-white/10 bg-[#09090b]/75 px-5 py-3.5 backdrop-blur-xl">
